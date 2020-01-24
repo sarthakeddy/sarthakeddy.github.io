@@ -7,13 +7,13 @@
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
-    <div class="panel-main__content" font-size="25px">
+    <div class="panel-main__content">
       <img src="{{ site.baseurl }}/images/profile.jpeg" class="user-image" alt="My Profile Photo">
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">{{ site.description }}</p>
+        <p class="panel-cover__description"  font-size="25px">{{ site.description }}</p>
         <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               <li class="navigation__item"><a href="resume.pdf" title="link to resume" class="resume-button">Resume</a></li>
@@ -41,7 +41,7 @@
               <!-- Codeforces -->
               <li class="navigation__item">
                 <a href="https://codeforces.com/profile/{{ site.author.codeforces_username }}" title="{{ site.author.codeforces_username }} on Codeforces" target="_blank">
-                  <img src="{{ site.baseurl }}/images/for.png" height="26" width="26">
+                  <img src="{{ site.baseurl }}/images/for.png" height="30" width="30">
                   <span class="label">Codeforces</span>
                 </a>
               </li>
@@ -51,7 +51,7 @@
               <!-- Atcoder -->
               <li class="navigation__item">
                 <a href="https://atcoder.jp/users/{{ site.author.atcoder_username }}" title="{{ site.author.atcoder_username }} on Atcoder" target="_blank">
-                  <img src="{{ site.baseurl }}/images/atcoder.png" height="26" width="26">
+                  <img src="{{ site.baseurl }}/images/avatar.png" height="30" width="30">
                   <span class="label">Atcoder</span>
                 </a>
               </li>
@@ -61,7 +61,7 @@
               <!-- LinkedIn -->
               <li class="navigation__item">
                 <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <i class="icon icon-social-linkedin" height="26" width="26"></i>
+                  <i class="icon icon-social-linkedin" height="30" width="30"></i>
                   <span class="label">LinkedIn</span>
                 </a>
               </li>
@@ -71,7 +71,7 @@
               <!-- GitHub -->
               <li class="navigation__item">
                 <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
-                  <i class="icon icon-social-github" height="26" width="26"></i>
+                  <i class="icon icon-social-github" height="30" width="30"></i>
                   <span class="label">GitHub</span>
                 </a>
               </li>
@@ -81,7 +81,7 @@
               <!-- Email -->
               <li class="navigation__item">
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="icon icon-mail" height="26" width="26"></i>
+                  <i class="icon icon-mail" height="30" width="30"></i>
                   <span class="label">Email</span>
                 </a>
               </li>
