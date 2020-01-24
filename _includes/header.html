@@ -7,24 +7,23 @@
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
-    <div class="panel-main__content" font-size="18px">
+    <div class="panel-main__content" font-size="25px">
       <img src="{{ site.baseurl }}/images/profile.jpeg" class="user-image" alt="My Profile Photo">
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
         <p class="panel-cover__description">{{ site.description }}</p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary">
-    </div>
-        <div class="navigation-wrapper">
-
-          <nav class="cover-navigation cover-navigation--primary">
+        <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               <li class="navigation__item"><a href="resume.pdf" title="link to resume" class="resume-button">Resume</a></li>
             </ul>
           </nav>
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
+    </div>
+        <div class="navigation-wrapper">
           <br/><br/>
-          <p>Connect me through</p>
+          <!-- <p font-size="25px">Have a look at my </p> -->
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
 
@@ -32,7 +31,7 @@
               <!-- Codechef -->
               <li class="navigation__item">
                 <a href="https://www.codechef.com/users/{{ site.author.codechef_username }}" title="@{{ site.author.codechef_username }} on Codechef" target="_blank">
-                  <img src="https://img.icons8.com/ios/40/000000/chef-hat.png">
+                  <img src="https://img.icons8.com/ios/40/000000/chef-hat.png" height="26" width="26">
                   <span class="label">Codechef</span>
                 </a>
               </li>  
@@ -42,7 +41,7 @@
               <!-- Codeforces -->
               <li class="navigation__item">
                 <a href="https://codeforces.com/profile/{{ site.author.codeforces_username }}" title="{{ site.author.codeforces_username }} on Codeforces" target="_blank">
-                  <img src="{{ site.baseurl }}/images/for.png">
+                  <img src="{{ site.baseurl }}/images/for.png" height="26" width="26">
                   <span class="label">Codeforces</span>
                 </a>
               </li>
@@ -52,7 +51,7 @@
               <!-- Atcoder -->
               <li class="navigation__item">
                 <a href="https://atcoder.jp/users/{{ site.author.atcoder_username }}" title="{{ site.author.atcoder_username }} on Atcoder" target="_blank">
-                  <img src="{{ site.baseurl }}/images/atcoder.png" height="13" width="13">
+                  <img src="{{ site.baseurl }}/images/atcoder.png" height="26" width="26">
                   <span class="label">Atcoder</span>
                 </a>
               </li>
@@ -62,7 +61,7 @@
               <!-- LinkedIn -->
               <li class="navigation__item">
                 <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <i class="icon icon-social-linkedin"></i>
+                  <i class="icon icon-social-linkedin" height="26" width="26"></i>
                   <span class="label">LinkedIn</span>
                 </a>
               </li>
@@ -72,7 +71,7 @@
               <!-- GitHub -->
               <li class="navigation__item">
                 <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
-                  <i class="icon icon-social-github"></i>
+                  <i class="icon icon-social-github" height="26" width="26"></i>
                   <span class="label">GitHub</span>
                 </a>
               </li>
@@ -82,7 +81,7 @@
               <!-- Email -->
               <li class="navigation__item">
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="icon icon-mail"></i>
+                  <i class="icon icon-mail" height="26" width="26"></i>
                   <span class="label">Email</span>
                 </a>
               </li>
@@ -98,7 +97,7 @@
 
             </ul>
           </nav>
-
+          <!-- <hr class="panel-cover__divider"> -->
         </div>
 
       <!-- </div> -->
