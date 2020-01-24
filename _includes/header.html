@@ -8,7 +8,7 @@
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-      <img src="{{ site.baseurl }}/images/profile.jpeg" class="user-image" alt="My Profile Photo">
+      <img src="{{ site.baseurl }}/images/profile.jpeg" class="user-image" alt="My Profile Photo" height="40" width="40">
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
@@ -56,7 +56,10 @@
                 </a>
               </li>
             {% endif %}
-            <br/><br/>
+          </nav>
+          <br/><br/>
+            <nav class="cover-navigation navigation--social">
+            
             {% if site.author.linkedin_username %}
               <!-- LinkedIn -->
               <li class="navigation__item">
