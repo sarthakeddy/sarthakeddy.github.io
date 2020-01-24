@@ -22,7 +22,7 @@
         <hr class="panel-cover__divider panel-cover__divider--secondary">
     </div>
         <div class="navigation-wrapper">
-          <br/><br/>
+          <br/>
           <!-- <p font-size="25px">Have a look at my </p> -->
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
@@ -31,7 +31,7 @@
               <!-- Codechef -->
               <li class="navigation__item">
                 <a href="https://www.codechef.com/users/{{ site.author.codechef_username }}" title="@{{ site.author.codechef_username }} on Codechef" target="_blank">
-                  <img src="https://img.icons8.com/ios/40/000000/chef-hat.png" height="26" width="26">
+                  <p>Codechef</p>
                   <span class="label">Codechef</span>
                 </a>
               </li>  
@@ -41,7 +41,7 @@
               <!-- Codeforces -->
               <li class="navigation__item">
                 <a href="https://codeforces.com/profile/{{ site.author.codeforces_username }}" title="{{ site.author.codeforces_username }} on Codeforces" target="_blank">
-                  <img src="{{ site.baseurl }}/images/for.png" height="30" width="30">
+                  <p>Codeforces</p>
                   <span class="label">Codeforces</span>
                 </a>
               </li>
@@ -51,12 +51,12 @@
               <!-- Atcoder -->
               <li class="navigation__item">
                 <a href="https://atcoder.jp/users/{{ site.author.atcoder_username }}" title="{{ site.author.atcoder_username }} on Atcoder" target="_blank">
-                  <img src="{{ site.baseurl }}/images/avatar.png" height="30" width="30">
+                  <p>Atcoder</p>
                   <span class="label">Atcoder</span>
                 </a>
               </li>
             {% endif %}
-
+            <br/><br/>
             {% if site.author.linkedin_username %}
               <!-- LinkedIn -->
               <li class="navigation__item">
