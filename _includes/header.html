@@ -8,9 +8,9 @@
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-      <img src="{{ site.baseurl }}/images/profile.jpeg" class="user-image" alt="My Profile Photo" style="height:100px; width:100px">
+      <img src="{{ site.baseurl }}/images/profile.jpeg" class="user-image" alt="My Profile Photo" style="height:800px; width:800px">
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
-          <h1 class="panel-cover__title panel-title" style="font-size:30px">{{ site.title }}</h1>
+        <h1 class="panel-cover__title panel-title" style="font-size:40px">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
         <p class="panel-cover__description"  style="font-size:22px">{{ site.description }}</p>
@@ -28,30 +28,30 @@
 
             {% if site.author.codechef_username %}
               <!-- Codechef -->
-              <li class="navigation__item">
+              <li class="navigation__item" style="font-size:20px">
                 <a href="https://www.codechef.com/users/{{ site.author.codechef_username }}" title="@{{ site.author.codechef_username }} on Codechef" target="_blank">
                   Codechef
-                  <span class="label" style="font-size:20px">Codechef</span>
+                  <span class="label">Codechef</span>
                 </a>
               </li>  
             {% endif %}
 
             {% if site.author.codeforces_username %}
               <!-- Codeforces -->
-              <li class="navigation__item">
+              <li class="navigation__item" style="font-size:20px">
                 <a href="https://codeforces.com/profile/{{ site.author.codeforces_username }}" title="{{ site.author.codeforces_username }} on Codeforces" target="_blank">
                   Codeforces
-                  <span class="label" style="font-size:20px">Codeforces</span>
+                  <span class="label" >Codeforces</span>
                 </a>
               </li>
             {% endif %}
 
             {% if site.author.atcoder_username %}
               <!-- Atcoder -->
-              <li class="navigation__item">
+              <li class="navigation__item" style="font-size:20px">
                 <a href="https://atcoder.jp/users/{{ site.author.atcoder_username }}" title="{{ site.author.atcoder_username }} on Atcoder" target="_blank">
                   Atcoder
-                  <span class="label" style="font-size:20px">Atcoder</span>
+                  <span class="label">Atcoder</span>
                 </a>
               </li>
             {% endif %}
