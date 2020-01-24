@@ -2,7 +2,7 @@
 title: Sarthak Shukla
 description: 'Hi! I am Second Year Undergraduate of Computer Science and Engineering at IIIT Nagpur. I am broadly interested in Data Structures, Algorithms, Competitive programming and their applications. For more details on the academic front, have a look at my resume and profile in links given.'
 url: 'http://sarthakeddy.github.io'
-baseurl: '/sarthakeddy.github.io'
+# baseurl: '/sarthakeddy.github.io'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
