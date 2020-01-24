@@ -10,13 +10,13 @@
     <div class="panel-main__content">
       <img src="{{ site.baseurl }}/images/profile.jpeg" class="user-image" alt="My Profile Photo" height="400" width="400">
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
-          <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
+          <h1 class="panel-cover__title panel-title" style="font-size:25px">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description"  style="font-size:25px">{{ site.description }}</p>
+        <p class="panel-cover__description"  style="font-size:22px">{{ site.description }}</p>
         <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="resume.pdf" title="link to resume" class="resume-button">Resume</a></li>
+              <li class="navigation__item" style="font-size:18px"><a href="resume.pdf" title="link to resume" class="resume-button">Resume</a></li>
             </ul>
           </nav>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
@@ -31,7 +31,7 @@
               <li class="navigation__item">
                 <a href="https://www.codechef.com/users/{{ site.author.codechef_username }}" title="@{{ site.author.codechef_username }} on Codechef" target="_blank">
                   Codechef
-                  <span class="label">Codechef</span>
+                  <span class="label" style="font-size:18px">Codechef</span>
                 </a>
               </li>  
             {% endif %}
@@ -41,7 +41,7 @@
               <li class="navigation__item">
                 <a href="https://codeforces.com/profile/{{ site.author.codeforces_username }}" title="{{ site.author.codeforces_username }} on Codeforces" target="_blank">
                   Codeforces
-                  <span class="label">Codeforces</span>
+                  <span class="label" style="font-size:18px">Codeforces</span>
                 </a>
               </li>
             {% endif %}
@@ -51,7 +51,7 @@
               <li class="navigation__item">
                 <a href="https://atcoder.jp/users/{{ site.author.atcoder_username }}" title="{{ site.author.atcoder_username }} on Atcoder" target="_blank">
                   Atcoder
-                  <span class="label">Atcoder</span>
+                  <span class="label" style="font-size:18px">Atcoder</span>
                 </a>
               </li>
             {% endif %}
