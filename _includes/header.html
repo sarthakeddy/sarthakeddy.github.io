@@ -2,10 +2,10 @@
   <i class="icon icon-list btn-mobile-menu__icon"></i>
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
-<header class="panel-cover" style="overflow:auto;background-image: url({{ site.baseurl }}/images/cover.jpg);">
-  <div class="panel-main" >
+<header class="panel-cover" style="overflow:auto;background-image: url({{ site.baseurl }}/images/black.jpg);">
+  <div class="panel-main">
 
-    <div class="panel-main__inner panel-inverted" >
+    <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
      <img src="{{ site.baseurl }}/images/profile.jpeg" class="user-image" alt="My Profile Photo" style="height:180px; width:180px">
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
@@ -109,3 +109,6 @@
     <!-- <div class="panel-cover--overlay"></div> -->
   </div>
 </header>
+<footer class="footer">
+  <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
+</footer>
